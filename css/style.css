@@ -10,8 +10,7 @@
   --color-grey-dark-2: #777;
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
-  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, .06)
-
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.06);
   --line: 1px solid var(--color-grey-light-2); }
 
 * {
@@ -267,7 +266,7 @@ body {
     color: var(--color-grey-dark-1); }
   .btn-inline:focus {
     outline: none;
-    animation: plusate 1s infinite; }
+    animation: pulsate 1s infinite; }
 
 @keyframes pulsate {
   0% {
